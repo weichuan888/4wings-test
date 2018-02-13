@@ -25,7 +25,7 @@
 
     <!-- fichier css -->
 
-    <link rel="stylesheet" href="../Views/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/sass/style.css" />
 
     <!-- <link rel="stylesheet" href="../stylesheets/index.css">
     <link rel="stylesheet" href="../stylesheets/footer.css">

@@ -4,9 +4,9 @@ class ContactController {
 
   }
   public function run() {
-    include Views . 'header.php';
-    include Views . 'contact.php';
-    include Views . 'footer.php';
+    include View . 'header.php';
+    include View . 'contact.php';
+    include View . 'footer.php';
   }
 }
 
