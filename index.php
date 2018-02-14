@@ -26,6 +26,7 @@
     <!-- fichier css -->
 
     <link rel="stylesheet" type="text/css" href="stylesheets/sass/style.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/sass/contact.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/sass/equipe.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/sass/faq.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/sass/logement.css" />
