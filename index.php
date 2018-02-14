@@ -11,8 +11,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -20,13 +20,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- caroussel -->
-    <link rel="stylesheet" type="text/css" href="../stylesheets/style_carousel.css" />
-    <link rel="stylesheet" type="text/css" href="../stylesheets/jquery.jscrollpane.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/sass/style_carousel.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.jscrollpane.css" media="all" />
 
     <!-- fichier css -->
 
     <link rel="stylesheet" type="text/css" href="stylesheets/sass/style.css" />
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <!-- <link rel="stylesheet" href="../stylesheets/index.css">
     <link rel="stylesheet" href="../stylesheets/footer.css">
     <link rel="stylesheet" href="../stylesheets/icomoon.css">

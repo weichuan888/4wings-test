@@ -4,8 +4,8 @@
       <nav>
         <div class="row">
           <div class="logo col-4">
-            <a href="index_lucile.php">
-              <img src="../img/logo_blanc.png" alt="">
+            <a href="index.php">
+              <img src="./img/logo_blanc.png" alt="">
             </a>
           </div>
           <div>
@@ -31,9 +31,10 @@
                       </ul>
                 </li>
                 <li class="dropdown list-inline-item menu"><a href="#">Contact</a></li>
-
             </ul>
           </div>
         </div>
       </nav>
     </header>
+  </div>
+</div>
