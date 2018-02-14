@@ -13,24 +13,22 @@
               <li class="dropdown list-inline-item menu">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">A propos <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="#">Missions</a></li>
-                        <li><a href="#">Valeurs</a></li>
-                        <li><a href="#">Sélection de projets</a></li>
-                        <li><a href="#">Équipe</a></li>
-                        <li><a href="#">Conseil d'administration</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Réseau & partenaires</a></li>
+                        <li><a href="?page=mission">Missions</a></li>
+                        <li><a href="?page=valeur">Valeurs</a></li>
+                        <li><a href="?page=selection-projet">Sélection de projets</a></li>
+                        <li><a href="?page=equipe">Équipe</a></li>
+                        <li><a href="?page=faq">FAQ</a></li>
                       </ul>
                 </li>
                 <li class="dropdown list-inline-item menu">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Les projets <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="logement.php">Logement</a></li>
-                        <li><a href="tech_education.php">Tech Éducation</a></li>
-                        <li><a href="sante.php">Santé et nutrition</a></li>
+                        <li><a href="?page=logement">Logement</a></li>
+                        <li><a href="?page=tech-education">Tech Éducation</a></li>
+                        <li><a href="?page=sante">Santé et nutrition</a></li>
                       </ul>
                 </li>
-                <li class="dropdown list-inline-item menu"><a href="#">Contact</a></li>
+                <li class="dropdown list-inline-item menu"><a href="?page=contact">Contact</a></li>
             </ul>
           </div>
         </div>

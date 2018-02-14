@@ -11,40 +11,43 @@
 
 
   <section>
-    <div class="container" >
-      <div class="contenu  axes">
-        <div class="row">
-          <div class="axe logement col-sm">
-            <a href="logement.php">
-              <div class="imgAxe img-fluid">
-                <img src="./img/logement.png" alt="">
-                <h2>Logement</h2>
-                <p>Une priorité pour l'intégration</p>
-              </div>
-            </a>
-          </div>
-          <div class="axe education col-sm">
-            <a href="tech_education.php">
-              <div class="imgAxe img-fluid">
-                <img src="./img/education.png" alt="">
-                <h2>Tech-Éducation</h2>
-                <p>Programmer le cercle vertueux &nbsp; de l'inclusion</p>
-              </div>
-            </a>
-          </div>
-          <div class="axe sante col-sm">
-            <a href="sante.php">
-              <div class="imgAxe img-fluid">
-                <img src="./img/sante.png" alt="">
-                <h2>Santé et</h2>
-                <h3>nutrition</h3>
-                <p>L'alimentation,<br> la clé pour la santé de tous</p>
-              </div>
-            </a>
+    <div class="container-fluid accueilBack">
+      <div class="container" >
+        <div class="contenu  axes">
+          <div class="row">
+            <div class="axe logement col-sm">
+              <a href="?page=logement">
+                <div class="imgAxe img-fluid">
+                  <img src="./img/logement.png" alt="">
+                  <h2>Logement</h2>
+                  <p>Une priorité pour l'intégration</p>
+                </div>
+              </a>
+            </div>
+            <div class="axe education col-sm">
+              <a href="?page=tech-education">
+                <div class="imgAxe img-fluid">
+                  <img src="./img/education.png" alt="">
+                  <h2>Tech-Éducation</h2>
+                  <p>Programmer le cercle vertueux &nbsp; de l'inclusion</p>
+                </div>
+              </a>
+            </div>
+            <div class="axe sante col-sm">
+              <a href="?page=sante">
+                <div class="imgAxe img-fluid">
+                  <img src="./img/sante.png" alt="">
+                  <h2>Santé et</h2>
+                  <h3>nutrition</h3>
+                  <p>L'alimentation,<br> la clé pour la santé de tous</p>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
  </section>
 
   <section class="citation">

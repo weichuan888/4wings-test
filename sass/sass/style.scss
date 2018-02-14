@@ -9,6 +9,7 @@ $rose1  : #db4d69;
 $marron : #564026;
 $blanc	: white;
 $blanc2 : #f6f3ed;
+$bleu5  : #007C92;
 
 @import "compass/css3";
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -187,10 +188,15 @@ body {
 			transform: rotate(-17deg);
 		}
 }
+
 section {
+	.accueilBack{
+		background-color:#007C92;
+	}
 	.axes{
-		background-color: $bleu1;
+
 		height:650px;
+		width: 100%;
 		flex-wrap: nowrap;
 		text-shadow: 1px 1px 1px rgba(106, 106, 106, 1.0);
 
@@ -361,10 +367,10 @@ footer {
 	height: 480px;
 	width: 100%;
 
-	background: #007c92; /* Old browsers */
-	background: -moz-linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: #007C92; /* Old browsers */
+	background: -moz-linear-gradient(180deg, $bleu5 0%, $bleu2 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(180deg, $bleu5 0%, $bleu2 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(180deg, $bleu5 0%, $bleu2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	//display: inline-block;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007c92+0,aadbdb+100 */
@@ -393,6 +399,12 @@ footer {
 			float: left;
 		}
   }
+	a{
+		color:white;
+		&:hover {
+			color: #db4d69;
+		}
+	}
 }
 
 // PAGE CONTACT

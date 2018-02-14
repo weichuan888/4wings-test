@@ -63,7 +63,7 @@
       break;
 
     case 'tech-education':
-      include(Controller . 'tech-education-Controller.php');
+      include(Controller . 'tech-educationController.php');
       $controller = new TechEducationController();
       break;
 

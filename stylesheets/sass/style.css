@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
-/* line 44, ../../sass/sass/style.scss */
+/* line 45, ../../sass/sass/style.scss */
 body {
   font-family: 'montserratregular';
   color: #564026;
 }
 
-/* line 56, ../../sass/sass/style.scss */
+/* line 57, ../../sass/sass/style.scss */
 .contenu {
   margin: auto;
 }
-/* line 59, ../../sass/sass/style.scss */
+/* line 60, ../../sass/sass/style.scss */
 .contenu header {
   height: 120px;
   width: 100%;
@@ -19,44 +19,44 @@ body {
   z-index: 100;
   display: inline-block;
 }
-/* line 67, ../../sass/sass/style.scss */
+/* line 68, ../../sass/sass/style.scss */
 .contenu header .logo {
   float: left;
   padding: 14px 0px 15px 35px;
 }
-/* line 73, ../../sass/sass/style.scss */
+/* line 74, ../../sass/sass/style.scss */
 .contenu header .navbar-header {
   float: none;
 }
-/* line 77, ../../sass/sass/style.scss */
+/* line 78, ../../sass/sass/style.scss */
 .contenu header .navbar-right {
   float: right !important;
   margin-right: 0px;
 }
-/* line 83, ../../sass/sass/style.scss */
+/* line 84, ../../sass/sass/style.scss */
 .contenu header nav ul {
   font-family: "Open+Sans:300", sans-serif;
   color: #00338d;
   margin-top: 40px;
   background-color: white;
 }
-/* line 89, ../../sass/sass/style.scss */
+/* line 90, ../../sass/sass/style.scss */
 .contenu header nav ul .menu {
   width: 181px;
 }
-/* line 90, ../../sass/sass/style.scss */
+/* line 91, ../../sass/sass/style.scss */
 .contenu header nav ul .menu:nth-child(1) {
   border-bottom: 5px solid #8791a4;
 }
-/* line 93, ../../sass/sass/style.scss */
+/* line 94, ../../sass/sass/style.scss */
 .contenu header nav ul .menu:nth-child(2) {
   border-bottom: 5px solid #AADBDB;
 }
-/* line 96, ../../sass/sass/style.scss */
+/* line 97, ../../sass/sass/style.scss */
 .contenu header nav ul .menu:nth-child(3) {
   border-bottom: 5px solid #db4d69;
 }
-/* line 101, ../../sass/sass/style.scss */
+/* line 102, ../../sass/sass/style.scss */
 .contenu header nav ul .menu a {
   font-size: 20px;
   font-weight: bold;
@@ -66,14 +66,14 @@ body {
   width: 100%;
   color: #00338d;
 }
-/* line 111, ../../sass/sass/style.scss */
+/* line 112, ../../sass/sass/style.scss */
 .contenu header nav ul .menu .dropdown-menu {
   background-color: #f6f3ed;
   width: 280px;
   font-family: "Montserrat", sans-serif;
   padding: 15px;
 }
-/* line 117, ../../sass/sass/style.scss */
+/* line 118, ../../sass/sass/style.scss */
 .contenu header nav ul .menu .dropdown-menu a {
   color: #564026;
   text-transform: initial;
@@ -86,18 +86,18 @@ body {
   margin-left: 0px;
   margin-right: auto;
 }
-/* line 130, ../../sass/sass/style.scss */
+/* line 131, ../../sass/sass/style.scss */
 .contenu header nav ul .menu .dropdown-menu a:hover {
   color: #db4d69;
   border-bottom: 5px solid #db4d69;
 }
-/* line 140, ../../sass/sass/style.scss */
+/* line 141, ../../sass/sass/style.scss */
 .contenu header nav ul .menu .nav .open > a, .contenu header nav ul .menu .nav .open > a:focus, .contenu header nav ul .menu .nav .open > a:hover {
   background-color: #f6f3ed;
   border-color: #f6f3ed;
 }
 
-/* line 149, ../../sass/sass/style.scss */
+/* line 150, ../../sass/sass/style.scss */
 .header {
   height: 120px;
   width: 100%;
@@ -107,22 +107,22 @@ body {
   z-index: 1000;
 }
 
-/* line 161, ../../sass/sass/style.scss */
+/* line 162, ../../sass/sass/style.scss */
 #accueil .row {
   margin: 0px;
   padding: 0px;
 }
-/* line 164, ../../sass/sass/style.scss */
+/* line 165, ../../sass/sass/style.scss */
 #accueil .row h1 {
   font-family: "Open+Sans:300", sans-serif;
   color: #00338d;
   font-size: 3em;
 }
-/* line 168, ../../sass/sass/style.scss */
+/* line 169, ../../sass/sass/style.scss */
 #accueil .row h1 .marron {
   color: #564026;
 }
-/* line 181, ../../sass/sass/style.scss */
+/* line 182, ../../sass/sass/style.scss */
 #accueil .libelluleHead {
   width: 100px;
   height: 79px;
@@ -132,14 +132,18 @@ body {
   transform: rotate(-17deg);
 }
 
-/* line 191, ../../sass/sass/style.scss */
+/* line 193, ../../sass/sass/style.scss */
+section .accueilBack {
+  background-color: #007C92;
+}
+/* line 196, ../../sass/sass/style.scss */
 section .axes {
-  background-color: #AADBDB;
   height: 650px;
+  width: 100%;
   flex-wrap: nowrap;
   text-shadow: 1px 1px 1px #6a6a6a;
 }
-/* line 197, ../../sass/sass/style.scss */
+/* line 203, ../../sass/sass/style.scss */
 section .axes .axe {
   width: 377px;
   height: 650px;
@@ -149,90 +153,90 @@ section .axes .axe {
   display: block;
   cursor: pointer;
 }
-/* line 206, ../../sass/sass/style.scss */
+/* line 212, ../../sass/sass/style.scss */
 section .axes .axe a {
   color: white;
 }
-/* line 209, ../../sass/sass/style.scss */
+/* line 215, ../../sass/sass/style.scss */
 section .axes .axe h2 {
   color: white;
 }
-/* line 211, ../../sass/sass/style.scss */
+/* line 217, ../../sass/sass/style.scss */
 section .axes .axe h2:hover {
   color: white;
   text-decoration: none;
 }
-/* line 216, ../../sass/sass/style.scss */
+/* line 222, ../../sass/sass/style.scss */
 section .axes .axe div img {
   height: 460px;
   width: 100%;
   overflow: hidden;
 }
-/* line 220, ../../sass/sass/style.scss */
+/* line 226, ../../sass/sass/style.scss */
 section .axes .axe div img:hover {
   opacity: 0.8;
 }
-/* line 224, ../../sass/sass/style.scss */
+/* line 230, ../../sass/sass/style.scss */
 section .axes .axe:hover {
   opacity: 0.8;
   -webkit-box-shadow: 0px 1px 2px 3px white;
   -moz-box-shadow: 0px 1px 2px 3px white;
   box-shadow: 0px 1px 2px 3px white;
 }
-/* line 229, ../../sass/sass/style.scss */
+/* line 235, ../../sass/sass/style.scss */
 section .axes .axe:hover a {
   text-decoration: none;
 }
-/* line 234, ../../sass/sass/style.scss */
+/* line 240, ../../sass/sass/style.scss */
 section .axes h2 {
   font-family: "Open+Sans:300", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 239, ../../sass/sass/style.scss */
+/* line 245, ../../sass/sass/style.scss */
 section .axes h2 a:hover {
   color: white;
 }
-/* line 242, ../../sass/sass/style.scss */
+/* line 248, ../../sass/sass/style.scss */
 section .axes h3 {
   font-family: "Open+Sans:300", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 247, ../../sass/sass/style.scss */
+/* line 253, ../../sass/sass/style.scss */
 section .axes p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2em;
   margin-top: 0px;
 }
-/* line 252, ../../sass/sass/style.scss */
+/* line 258, ../../sass/sass/style.scss */
 section .axes .logement {
   border-top: 5px solid #db4d69;
   background-color: #db4d69;
 }
-/* line 255, ../../sass/sass/style.scss */
+/* line 261, ../../sass/sass/style.scss */
 section .axes .logement h2 {
   font-size: 3.5em;
   margin-bottom: 0px;
   margin-top: 30px;
 }
-/* line 260, ../../sass/sass/style.scss */
+/* line 266, ../../sass/sass/style.scss */
 section .axes .logement p {
   font-size: 1.3em;
   margin-top: 0px;
 }
-/* line 266, ../../sass/sass/style.scss */
+/* line 272, ../../sass/sass/style.scss */
 section .axes .education {
   border-top: 5px solid #00338d;
   background-color: #00338d;
 }
-/* line 269, ../../sass/sass/style.scss */
+/* line 275, ../../sass/sass/style.scss */
 section .axes .education h2 {
   font-size: 2.8em;
   margin-bottom: 35px;
   margin-top: 35px;
 }
-/* line 274, ../../sass/sass/style.scss */
+/* line 280, ../../sass/sass/style.scss */
 section .axes .education p {
   font-size: 1.3em;
   padding-bottom: 15px;
@@ -243,23 +247,23 @@ section .axes .education p {
   line-height: 1.2em;
   width: 70%;
 }
-/* line 285, ../../sass/sass/style.scss */
+/* line 291, ../../sass/sass/style.scss */
 section .axes .sante {
   border-top: 5px solid #C4D2FC;
   background-color: #C4D2FC;
 }
-/* line 288, ../../sass/sass/style.scss */
+/* line 294, ../../sass/sass/style.scss */
 section .axes .sante h2 {
   font-size: 2.8em;
   margin-top: 5px;
 }
-/* line 292, ../../sass/sass/style.scss */
+/* line 298, ../../sass/sass/style.scss */
 section .axes .sante h3 {
   font-size: 3.5em;
   margin-bottom: 0px;
   margin-top: -20px;
 }
-/* line 297, ../../sass/sass/style.scss */
+/* line 303, ../../sass/sass/style.scss */
 section .axes .sante p {
   font-size: 1.3em;
   margin-top: -5px;
@@ -267,12 +271,12 @@ section .axes .sante p {
   text-shadow: 1px 1px 1px black;
 }
 
-/* line 306, ../../sass/sass/style.scss */
+/* line 312, ../../sass/sass/style.scss */
 section.citation {
   background-color: #f6f3ed;
   width: 100%;
 }
-/* line 310, ../../sass/sass/style.scss */
+/* line 316, ../../sass/sass/style.scss */
 section.citation .citation_image {
   display: block;
   background-image: url("../../img/femme.png");
@@ -280,7 +284,7 @@ section.citation .citation_image {
   width: 100%;
   height: 525px;
 }
-/* line 317, ../../sass/sass/style.scss */
+/* line 323, ../../sass/sass/style.scss */
 section.citation .citation_texte {
   font-family: "Open+Sans:300", sans-serif;
   color: #00338d;
@@ -291,7 +295,7 @@ section.citation .citation_texte {
   margin-left: 530px;
   line-height: 55px;
 }
-/* line 328, ../../sass/sass/style.scss */
+/* line 334, ../../sass/sass/style.scss */
 section.citation .auteur {
   font-family: "Montserrat", sans-serif;
   color: #564026;
@@ -300,7 +304,7 @@ section.citation .auteur {
   margin-top: -50px;
   letter-spacing: -0.05em;
 }
-/* line 336, ../../sass/sass/style.scss */
+/* line 342, ../../sass/sass/style.scss */
 section.citation .libellule_blanche {
   width: 200px;
   height: 200px;
@@ -311,13 +315,13 @@ section.citation .libellule_blanche {
   right: 400px;
 }
 
-/* line 347, ../../sass/sass/style.scss */
+/* line 353, ../../sass/sass/style.scss */
 section.slider_projets {
   background-color: #f6f3ed;
   padding-bottom: 50px;
 }
 
-/* line 355, ../../sass/sass/style.scss */
+/* line 361, ../../sass/sass/style.scss */
 footer {
   color: white;
   text-align: center;
@@ -326,24 +330,24 @@ footer {
   line-height: 180%;
   height: 480px;
   width: 100%;
-  background: #007c92;
+  background: #007C92;
   /* Old browsers */
-  background: -moz-linear-gradient(180deg, #8791a4 0%, #C4D2FC 100%);
+  background: -moz-linear-gradient(180deg, #007C92 0%, #C4D2FC 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(180deg, #8791a4 0%, #C4D2FC 100%);
+  background: -webkit-linear-gradient(180deg, #007C92 0%, #C4D2FC 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(180deg, #8791a4 0%, #c4d2fc 100%);
+  background: linear-gradient(180deg, #007c92 0%, #c4d2fc 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007c92+0,aadbdb+100 */
 }
-/* line 373, ../../sass/sass/style.scss */
+/* line 379, ../../sass/sass/style.scss */
 footer .row {
   margin-right: 0px;
   margin-left: 0px;
 }
-/* line 377, ../../sass/sass/style.scss */
+/* line 383, ../../sass/sass/style.scss */
 footer .row .adresse {
   color: white;
   text-align: right;
@@ -354,72 +358,80 @@ footer .row .adresse {
   margin-top: 30px;
   float: left;
 }
-/* line 386, ../../sass/sass/style.scss */
+/* line 392, ../../sass/sass/style.scss */
 footer .row .adresse h4 {
   font-size: 22px;
 }
-/* line 390, ../../sass/sass/style.scss */
+/* line 396, ../../sass/sass/style.scss */
 footer .row .logofooter {
   margin-top: 64px;
   margin-left: 45px;
   float: left;
 }
+/* line 402, ../../sass/sass/style.scss */
+footer a {
+  color: white;
+}
+/* line 404, ../../sass/sass/style.scss */
+footer a:hover {
+  color: #db4d69;
+}
 
-/* line 400, ../../sass/sass/style.scss */
+/* line 412, ../../sass/sass/style.scss */
 .contact h1 {
   color: #00338d;
   font-size: 3em;
 }
-/* line 405, ../../sass/sass/style.scss */
+/* line 417, ../../sass/sass/style.scss */
 .contact .bureaux h2 {
   font-family: "Montserrat", sans-serif;
 }
-/* line 408, ../../sass/sass/style.scss */
+/* line 420, ../../sass/sass/style.scss */
 .contact .bureaux p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
 }
-/* line 412, ../../sass/sass/style.scss */
+/* line 424, ../../sass/sass/style.scss */
 .contact .bureaux .formulair {
   display: inline-flex;
 }
-/* line 416, ../../sass/sass/style.scss */
+/* line 428, ../../sass/sass/style.scss */
 .contact .bureaux .formulair form {
   margin-left: 50px;
   font-family: "Montserrat", sans-serif;
 }
-/* line 420, ../../sass/sass/style.scss */
+/* line 432, ../../sass/sass/style.scss */
 .contact .bureaux .formulair form label {
   margin-bottom: 25px;
   margin-top: 1%;
   margin-right: 1%;
   font-family: "Montserrat", sans-serif;
 }
-/* line 427, ../../sass/sass/style.scss */
+/* line 439, ../../sass/sass/style.scss */
 .contact .bureaux .formulair form input {
   margin-bottom: 30px;
   margin-right: 2%;
 }
-/* line 431, ../../sass/sass/style.scss */
+/* line 443, ../../sass/sass/style.scss */
 .contact .bureaux .formulair form textarea {
   width: 600px;
   height: 200px;
 }
 
 @media screen and (max-width: 320px) {
-  /* line 444, ../../sass/sass/style.scss */
+  /* line 456, ../../sass/sass/style.scss */
   .formulair {
     display: block;
   }
 
-  /* line 447, ../../sass/sass/style.scss */
+  /* line 459, ../../sass/sass/style.scss */
   .formu {
     width: 100%;
     display: block;
   }
 }
 @media screen and (max-width: 790px) {
-  /* line 453, ../../sass/sass/style.scss */
+  /* line 465, ../../sass/sass/style.scss */
   .formu {
     width: 100%;
     float: left;
