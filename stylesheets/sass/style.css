@@ -373,11 +373,11 @@ footer .row .logofooter {
 }
 /* line 405, ../../sass/sass/style.scss */
 .contact .bureaux h2 {
-  font-family: 'montserratregular', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /* line 408, ../../sass/sass/style.scss */
 .contact .bureaux p {
-  font-family: 'montserratregular', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
 }
 /* line 412, ../../sass/sass/style.scss */
@@ -387,14 +387,14 @@ footer .row .logofooter {
 /* line 416, ../../sass/sass/style.scss */
 .contact .bureaux .formulair form {
   margin-left: 50px;
-  font-family: 'montserratregular', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /* line 420, ../../sass/sass/style.scss */
 .contact .bureaux .formulair form label {
   margin-bottom: 25px;
   margin-top: 1%;
   margin-right: 1%;
-  font-family: 'montserratregular', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /* line 427, ../../sass/sass/style.scss */
 .contact .bureaux .formulair form input {

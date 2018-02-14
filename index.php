@@ -26,7 +26,15 @@
     <!-- fichier css -->
 
     <link rel="stylesheet" type="text/css" href="stylesheets/sass/style.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="stylesheet/sass/contact.css"/> -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/sass/equipe.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/sass/faq.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/sass/logement.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/sass/mission.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/sass/valeur.css" />
+
+
+
+
 
     <!-- google font => police de caracteres -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
