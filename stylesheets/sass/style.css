@@ -186,7 +186,7 @@ section .axes .axe:hover a {
 }
 /* line 234, ../../sass/sass/style.scss */
 section .axes h2 {
-  font-family: 'misoregular';
+  font-family: "Abel", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -196,13 +196,13 @@ section .axes h2 a:hover {
 }
 /* line 242, ../../sass/sass/style.scss */
 section .axes h3 {
-  font-family: 'misoregular';
+  font-family: "Abel", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
 }
 /* line 247, ../../sass/sass/style.scss */
 section .axes p {
-  font-family: 'montserratregular';
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2em;
   margin-top: 0px;
 }
@@ -283,9 +283,9 @@ section.citation .citation_image {
 }
 /* line 317, ../../sass/sass/style.scss */
 section.citation .citation_texte {
-  font-family: 'misoregular';
+  font-family: "Abel", sans-serif;
   color: #00338d;
-  font-size: 4em;
+  font-size: 3em;
   letter-spacing: -0.05em;
   position: absolute;
   margin-top: -350px;
@@ -294,7 +294,7 @@ section.citation .citation_texte {
 }
 /* line 328, ../../sass/sass/style.scss */
 section.citation .auteur {
-  font-family: 'montserratregular';
+  font-family: "Montserrat", sans-serif;
   color: #564026;
   font-size: 1.5em;
   margin-left: 445px;
@@ -333,4 +333,41 @@ footer {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
+}
+
+/* line 365, ../../sass/sass/style.scss */
+footer {
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 180%;
+  height: 480px;
+  margin-top: 50px;
+}
+/* line 374, ../../sass/sass/style.scss */
+footer .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+/* line 378, ../../sass/sass/style.scss */
+footer .row .adresse {
+  color: white;
+  text-align: right;
+  width: 50%;
+  height: 300px;
+  border-right: 1px solid white;
+  padding-right: 50px;
+  margin-top: 30px;
+  float: left;
+}
+/* line 387, ../../sass/sass/style.scss */
+footer .row .adresse h4 {
+  font-size: 22px;
+}
+/* line 391, ../../sass/sass/style.scss */
+footer .row .logofooter {
+  margin-top: 64px;
+  margin-left: 45px;
+  float: left;
 }

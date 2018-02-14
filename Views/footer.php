@@ -40,7 +40,7 @@
       <script type="text/javascript"> $(document).ready(function(){ $('.top').click(function(){ $('html,body').animate({scrollTop: 0},'slow'); }); }); </script>
 
       <script type="text/javascript" src="./js/jquery.easing.1.3.js"></script>
-        <!-- the jScrollPane script -->
+        <!-- <!-the jScrollPane script --> 
       <script type="text/javascript" src="./js/jquery.mousewheel.js"></script>
       <script type="text/javascript" src="./js/jquery.contentcarousel.js"></script>
       <script type="text/javascript">

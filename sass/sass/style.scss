@@ -232,7 +232,7 @@ section {
 			}
 		}
 		h2 {
-			font-family: 'misoregular';
+			font-family: $Abel;
 			text-transform: uppercase;
 			font-weight: bold;
 		}
@@ -240,12 +240,12 @@ section {
 			color: white;
 			}
 		h3 {
-			font-family: 'misoregular';
+			font-family: $Abel;
 			text-transform: uppercase;
 			font-weight: bold;
 			}
 		p {
-			font-family: 'montserratregular';
+			font-family: $Montserrat;
 			font-size: 1.2em;
 			margin-top: 0px;
 	  }
@@ -315,9 +315,9 @@ section.citation {
   			height: 525px;
   			}
   			.citation_texte{
-					font-family: 'misoregular';
+					font-family: $Abel;
 					color: $bleu3;
-					font-size: 4em;
+					font-size: 3em;
 					letter-spacing: -0.05em;
 					position:absolute;
   				margin-top: -350px;
@@ -326,7 +326,7 @@ section.citation {
   				line-height: 55px;
   			}
 				.auteur {
-					font-family: 'montserratregular';
+					font-family: $Montserrat;
 					color: $marron;
 					font-size: 1.5em;
 					margin-left: 445px;
@@ -347,7 +347,7 @@ section.citation {
 section.slider_projets {
 			background-color: $blanc2;
 			padding-bottom: 50px;
-			}
+}
 
 
 //FOOTER => BAS DE PAGE
@@ -361,4 +361,37 @@ footer {
 	background: -webkit-linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+footer {
+	color: white;
+	text-align: center;
+	font-family: $Montserrat;
+	font-size: 18px;
+	line-height: 180%;
+	height: 480px;
+	margin-top: 50px;
+
+		.row {
+		    margin-right: 0px;
+		    margin-left: 0px;
+
+		.adresse {
+  			color: white;
+  			text-align: right;
+  			width: 50%;
+  			height: 300px;
+  			border-right: 1px solid white;
+  			padding-right: 50px;
+  			margin-top : 30px;
+  			float: left;
+      	h4 {
+    				font-size: 22px;
+    		}
+		}
+		.logofooter {
+			margin-top : 64px;
+			margin-left : 45px;
+			float: left;
+		}
+  }
 }
