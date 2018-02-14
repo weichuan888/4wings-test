@@ -33,7 +33,7 @@
             </a>
           </div>
           <div class="axe sante col-sm">
-            <a href="sante_nutrition.php">
+            <a href="sante.php">
               <div class="imgAxe img-fluid">
                 <img src="./img/sante.png" alt="">
                 <h2>Santé et</h2>

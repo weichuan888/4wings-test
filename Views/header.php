@@ -27,7 +27,7 @@
                       <ul class="dropdown-menu">
                         <li><a href="logement.php">Logement</a></li>
                         <li><a href="tech_education.php">Tech Éducation</a></li>
-                        <li><a href="sante_nutrition.php">Santé et nutrition</a></li>
+                        <li><a href="sante.php">Santé et nutrition</a></li>
                       </ul>
                 </li>
                 <li class="dropdown list-inline-item menu"><a href="#">Contact</a></li>

@@ -12,11 +12,11 @@ $blanc2 : #f6f3ed;
 
 @import "compass/css3";
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Abel');
+// @import url('https://fonts.googleapis.com/css?family=Abel');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 $Montserrat: 'Montserrat', sans-serif;
-$Abel: 'Abel', sans-serif;
+// $Abel: 'Abel', sans-serif;
 $OpenSans : 'Open+Sans:300', sans-serif;
 
 // @font-face {
@@ -81,7 +81,7 @@ body {
   		}
 
   		nav ul{
-  			font-family: $Abel;
+  			font-family: $OpenSans;
   			color: $bleu3;
   			margin-top: 40px;
   			background-color: $blanc;
@@ -162,7 +162,7 @@ body {
 		margin: 0px;
 		padding: 0px;
     h1 {
-    	font-family: $Abel;
+    	font-family: $OpenSans;
   	  color: $bleu3;
   	  font-size: 3em;
       .marron {
@@ -232,7 +232,7 @@ section {
 			}
 		}
 		h2 {
-			font-family: $Abel;
+			font-family: $OpenSans;
 			text-transform: uppercase;
 			font-weight: bold;
 		}
@@ -240,7 +240,7 @@ section {
 			color: white;
 			}
 		h3 {
-			font-family: $Abel;
+			font-family: $OpenSans;
 			text-transform: uppercase;
 			font-weight: bold;
 			}
@@ -253,7 +253,7 @@ section {
 	    border-top : 5px solid $rose1;
 	    background-color: $rose1;
 			h2 {
-		   	font-size: 5.2em;
+		   	font-size: 3.5em;
 		    margin-bottom: 0px;
 		    margin-top: 30px;
 		  }
@@ -267,7 +267,7 @@ section {
 			border-top : 5px solid $bleu3;
 			background-color: $bleu3;
 			h2 {
-		   	font-size: 3.8em;
+		   	font-size: 2.8em;
 		    margin-bottom: 35px;
 		    margin-top: 35px;
 			}
@@ -286,11 +286,11 @@ section {
 			border-top : 5px solid $bleu2;
 			background-color: $bleu2;
 			h2 {
-		   	font-size: 3.7em;
+		   	font-size: 2.8em;
 		    margin-top: 5px;
       }
 			h3 {
-		   	font-size: 5em;
+		   	font-size: 3.5em;
 		    margin-bottom: 0px;
 		    margin-top: -20px;
 			}
@@ -315,7 +315,7 @@ section.citation {
   			height: 525px;
   			}
   			.citation_texte{
-					font-family: $Abel;
+					font-family: $OpenSans;
 					color: $bleu3;
 					font-size: 3em;
 					letter-spacing: -0.05em;
@@ -351,17 +351,7 @@ section.slider_projets {
 
 
 //FOOTER => BAS DE PAGE
-footer {
-	height: 435px;
-	width: 100%;
-  	//display: inline-block;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007c92+0,aadbdb+100 */
-	background: #007c92; /* Old browsers */
-	background: -moz-linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
+
 footer {
 	color: white;
 	text-align: center;
@@ -369,7 +359,16 @@ footer {
 	font-size: 18px;
 	line-height: 180%;
 	height: 480px;
+	width: 100%;
 	margin-top: 50px;
+	background: #007c92; /* Old browsers */
+	background: -moz-linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	//display: inline-block;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007c92+0,aadbdb+100 */
+
 
 		.row {
 		    margin-right: 0px;
@@ -393,5 +392,66 @@ footer {
 			margin-left : 45px;
 			float: left;
 		}
+  }
+}
+
+// PAGE CONTACT
+.contact {
+  h1 {
+    color: #00338d;
+    font-size: 3em;
+  }
+  .bureaux {
+    h2 {
+      font-family: 'montserratregular', sans-serif;
+    }
+    p {
+      font-family: 'montserratregular', sans-serif;
+      font-size: 1.5em;
+    }
+    .formulair {
+
+      display: inline-flex;
+
+      form {
+        margin-left: 50px;
+        font-family: 'montserratregular', sans-serif;
+
+        label {
+          margin-bottom: 25px;
+          margin-top: 1%;
+          margin-right: 1%;
+          font-family: 'montserratregular', sans-serif;
+
+        }
+        input {
+          margin-bottom: 30px;
+          margin-right: 2%;
+        }
+        textarea {
+          width: 600px;
+          height: 200px;
+        }
+      }
+    }
+  }
+}
+$break-small: 320px;
+$break-medium: 790px;
+
+
+  @media screen and (max-width: $break-small) {
+    .formulair {
+      display: block;
+    }
+    .formu {
+    width: 100%;
+    display: block;
+  }
+}
+  @media screen and (max-width: $break-medium) {
+    .formu {
+    width: 100%;
+    float: left;
   }
 }

@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Abel");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
 /* line 44, ../../sass/sass/style.scss */
 body {
@@ -36,7 +35,7 @@ body {
 }
 /* line 83, ../../sass/sass/style.scss */
 .contenu header nav ul {
-  font-family: "Abel", sans-serif;
+  font-family: "Open+Sans:300", sans-serif;
   color: #00338d;
   margin-top: 40px;
   background-color: white;
@@ -115,7 +114,7 @@ body {
 }
 /* line 164, ../../sass/sass/style.scss */
 #accueil .row h1 {
-  font-family: "Abel", sans-serif;
+  font-family: "Open+Sans:300", sans-serif;
   color: #00338d;
   font-size: 3em;
 }
@@ -186,7 +185,7 @@ section .axes .axe:hover a {
 }
 /* line 234, ../../sass/sass/style.scss */
 section .axes h2 {
-  font-family: "Abel", sans-serif;
+  font-family: "Open+Sans:300", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -196,7 +195,7 @@ section .axes h2 a:hover {
 }
 /* line 242, ../../sass/sass/style.scss */
 section .axes h3 {
-  font-family: "Abel", sans-serif;
+  font-family: "Open+Sans:300", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -213,7 +212,7 @@ section .axes .logement {
 }
 /* line 255, ../../sass/sass/style.scss */
 section .axes .logement h2 {
-  font-size: 5.2em;
+  font-size: 3.5em;
   margin-bottom: 0px;
   margin-top: 30px;
 }
@@ -229,7 +228,7 @@ section .axes .education {
 }
 /* line 269, ../../sass/sass/style.scss */
 section .axes .education h2 {
-  font-size: 3.8em;
+  font-size: 2.8em;
   margin-bottom: 35px;
   margin-top: 35px;
 }
@@ -251,12 +250,12 @@ section .axes .sante {
 }
 /* line 288, ../../sass/sass/style.scss */
 section .axes .sante h2 {
-  font-size: 3.7em;
+  font-size: 2.8em;
   margin-top: 5px;
 }
 /* line 292, ../../sass/sass/style.scss */
 section .axes .sante h3 {
-  font-size: 5em;
+  font-size: 3.5em;
   margin-bottom: 0px;
   margin-top: -20px;
 }
@@ -283,7 +282,7 @@ section.citation .citation_image {
 }
 /* line 317, ../../sass/sass/style.scss */
 section.citation .citation_texte {
-  font-family: "Abel", sans-serif;
+  font-family: "Open+Sans:300", sans-serif;
   color: #00338d;
   font-size: 3em;
   letter-spacing: -0.05em;
@@ -318,11 +317,16 @@ section.slider_projets {
   padding-bottom: 50px;
 }
 
-/* line 354, ../../sass/sass/style.scss */
+/* line 355, ../../sass/sass/style.scss */
 footer {
-  height: 435px;
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 180%;
+  height: 480px;
   width: 100%;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007c92+0,aadbdb+100 */
+  margin-top: 50px;
   background: #007c92;
   /* Old browsers */
   background: -moz-linear-gradient(180deg, #8791a4 0%, #C4D2FC 100%);
@@ -333,24 +337,14 @@ footer {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007c92+0,aadbdb+100 */
 }
-
-/* line 365, ../../sass/sass/style.scss */
-footer {
-  color: white;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  line-height: 180%;
-  height: 480px;
-  margin-top: 50px;
-}
-/* line 374, ../../sass/sass/style.scss */
+/* line 373, ../../sass/sass/style.scss */
 footer .row {
   margin-right: 0px;
   margin-left: 0px;
 }
-/* line 378, ../../sass/sass/style.scss */
+/* line 377, ../../sass/sass/style.scss */
 footer .row .adresse {
   color: white;
   text-align: right;
@@ -361,13 +355,74 @@ footer .row .adresse {
   margin-top: 30px;
   float: left;
 }
-/* line 387, ../../sass/sass/style.scss */
+/* line 386, ../../sass/sass/style.scss */
 footer .row .adresse h4 {
   font-size: 22px;
 }
-/* line 391, ../../sass/sass/style.scss */
+/* line 390, ../../sass/sass/style.scss */
 footer .row .logofooter {
   margin-top: 64px;
   margin-left: 45px;
   float: left;
+}
+
+/* line 400, ../../sass/sass/style.scss */
+.contact h1 {
+  color: #00338d;
+  font-size: 3em;
+}
+/* line 405, ../../sass/sass/style.scss */
+.contact .bureaux h2 {
+  font-family: 'montserratregular', sans-serif;
+}
+/* line 408, ../../sass/sass/style.scss */
+.contact .bureaux p {
+  font-family: 'montserratregular', sans-serif;
+  font-size: 1.5em;
+}
+/* line 412, ../../sass/sass/style.scss */
+.contact .bureaux .formulair {
+  display: inline-flex;
+}
+/* line 416, ../../sass/sass/style.scss */
+.contact .bureaux .formulair form {
+  margin-left: 50px;
+  font-family: 'montserratregular', sans-serif;
+}
+/* line 420, ../../sass/sass/style.scss */
+.contact .bureaux .formulair form label {
+  margin-bottom: 25px;
+  margin-top: 1%;
+  margin-right: 1%;
+  font-family: 'montserratregular', sans-serif;
+}
+/* line 427, ../../sass/sass/style.scss */
+.contact .bureaux .formulair form input {
+  margin-bottom: 30px;
+  margin-right: 2%;
+}
+/* line 431, ../../sass/sass/style.scss */
+.contact .bureaux .formulair form textarea {
+  width: 600px;
+  height: 200px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 444, ../../sass/sass/style.scss */
+  .formulair {
+    display: block;
+  }
+
+  /* line 447, ../../sass/sass/style.scss */
+  .formu {
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 790px) {
+  /* line 453, ../../sass/sass/style.scss */
+  .formu {
+    width: 100%;
+    float: left;
+  }
 }

@@ -26,9 +26,12 @@
     <!-- fichier css -->
 
     <link rel="stylesheet" type="text/css" href="stylesheets/sass/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="stylesheet/sass/contact.css"/> -->
+
+    <!-- google font => police de caracteres -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"/>
     <!-- <link rel="stylesheet" href="../stylesheets/index.css">
     <link rel="stylesheet" href="../stylesheets/footer.css">
     <link rel="stylesheet" href="../stylesheets/icomoon.css">
