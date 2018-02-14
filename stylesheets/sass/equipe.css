@@ -84,11 +84,11 @@
 }
 /* line 82, ../../sass/sass/equipe.scss */
 .SectionEquipe .EquipeImage a {
-  background-image: url("../img/Membres/Art_A_IMG_3021.jpg");
+  background-image: url("../../img/Membres/Art_A_IMG_3021.jpg");
 }
 /* line 86, ../../sass/sass/equipe.scss */
 .SectionEquipe .EquipeImage a:hover {
-  background-image: url("../img/Membres/Art_B_IMG_3022.jpg");
+  background-image: url("../../img/Membres/Art_B_IMG_3022.jpg");
 }
 /* line 92, ../../sass/sass/equipe.scss */
 .SectionEquipe .EquipeTexte {

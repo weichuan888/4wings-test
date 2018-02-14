@@ -1,0 +1,74 @@
+/* line 1, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection {
+  font-family: 'Montserrat';
+}
+/* line 4, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain {
+  height: 1200px;
+  width: 100%;
+}
+/* line 9, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft {
+  width: 75%;
+  height: 100%;
+}
+/* line 13, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft h3 {
+  font-size: 2.5em;
+  text-align: left;
+}
+/* line 17, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft form {
+  margin-left: 2%;
+  margin-top: 4%;
+}
+/* line 21, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft form .form-group {
+  height: 50px;
+}
+/* line 24, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft form .form-group label {
+  float: left;
+  margin-bottom: 1%;
+}
+/* line 27, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft form .form-group label textarea {
+  margin-bottom: 2%;
+}
+/* line 31, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft form .form-group label input {
+  float: right;
+}
+/* line 37, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 40%;
+  height: 100%;
+  box-shadow: 2px 2px 2px black;
+  border: 2px solid black;
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+}
+/* line 53, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireRight {
+  background: linear-gradient(to bottom, #aadbdb 0%, #aadbdb 50%, #ffffff 100%);
+  height: 100%;
+  width: 25%;
+  text-align: center;
+  padding-top: 5%;
+}
+/* line 59, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireRight h2 {
+  padding-bottom: 10%;
+}
+/* line 62, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireRight p {
+  font-size: 1.2em;
+}
+/* line 65, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireRight a {
+  font-size: 1.2em;
+}

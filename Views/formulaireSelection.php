@@ -1,0 +1,79 @@
+      <div class="container formulaireSelection">
+         <div class="row formulaireMain">
+           <div class="col-md-9 formulaireLeft">
+              <h3>Merci de nous contacter via ce formulaire <br>et nous vous répondrons dans les meilleurs délais.</h3>
+              <form role="form" class="" >
+                <div class="form-group">
+                  <label>Nom :
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Ex: Dupont" required>
+                  </label>
+                </div>
+
+                <div class="form-group">
+                  <label>Prénom :
+                    <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Ex: Paul" required>
+                  </label>
+                </div>
+
+                <div class="form-group">
+                  <label>Nom de l'association :
+                    <input type="text" class="form-control" id="association" name="association" placeholder="Nom de l'association" required>
+                  </label>
+                </div>
+
+                <div class="form-group">
+                  <label>Votre adresse email :
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Ex: example@gmail.com" required>
+                  </label>
+                </div>
+
+                <div class="form-group">
+                  <label>Numéro de téléphone :
+                    <input type="number" class="form-control" id="mobile" name="mobile" placeholder="0XXX XXX XXX" required>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label>Périmètre de l'action :
+                    <select name="choix">
+                      <option value="choix1">+5km</option>
+                      <option value="choix2">+10km</option>
+                      <option value="choix3">+20km</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label>Description de votre projet :
+                    <textarea class="form-control" type="textarea" id="message" maxlength="500" rows="7" cols="110">
+                    </textarea>
+                  </label>
+                </div>
+
+                <div class="form-group">
+                  <label>En quoi le projet participe à créer un cercle vertueux d’inclusion sociale?
+                    <textarea class="form-control" type="textarea" id="message" maxlength="500" rows="7" cols="110">
+                    </textarea>
+                  </label>
+                </div>
+
+                <div class="form-group">
+                  <label>Comment la fondation pourrait-elle vous aider?
+                    <textarea class="form-control" type="textarea" id="message" maxlength="500" rows="7" cols="110">
+                    </textarea>
+                  </label>
+
+                </div>
+                <button type="button" id="submit" name="submit" class="btn btn_success2">ENVOYER LE FORMULAIRE</button>
+              </form>
+            </div>
+            <div class="col-md-3 formulaireRight">
+              <h2>Fondation d'utilité publique </h2>
+                <p>
+                    RPM Bruxelles division francophone, située à
+                    Chaussée de Vleurgat 282a bte 1,<br/>
+                    1050 Bruxelles – Belgique
+                </p>
+                <br>
+                <a href="mailto:info@4wings.org">info@4wings.org</a>
+            </div>
+          </div>
+      </div>

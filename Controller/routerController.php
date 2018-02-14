@@ -71,6 +71,10 @@
       include(Controller . 'valeurController.php');
       $controller = new ValeurController();
       break;
+    case 'formulaire':
+      include(Controller . 'formulaireSelectionController.php');
+      $controller = new FormulaireSelectionController();
+      break;
 
     default:
       include(Controller . 'accueilController.php');
