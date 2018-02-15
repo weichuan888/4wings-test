@@ -1,10 +1,10 @@
 /* line 1, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat',sans-serif;
 }
 /* line 4, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain {
-  height: 1200px;
+  height: 1400px;
   width: 100%;
 }
 /* line 9, ../../sass/sass/formulaireSelection.scss */
@@ -14,61 +14,85 @@
 }
 /* line 13, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain .formulaireLeft h3 {
-  font-size: 2.5em;
+  font-size: 3.5em;
   text-align: left;
+  margin-left: 18px;
+  color: #00338d;
 }
-/* line 17, ../../sass/sass/formulaireSelection.scss */
+/* line 19, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft p {
+  font-size: 1.5em;
+  text-align: left;
+  margin-left: 18px;
+  color: #00338d;
+}
+/* line 25, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain .formulaireLeft form {
   margin-left: 2%;
   margin-top: 4%;
 }
-/* line 21, ../../sass/sass/formulaireSelection.scss */
+/* line 29, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain .formulaireLeft form .form-group {
   height: 50px;
 }
-/* line 24, ../../sass/sass/formulaireSelection.scss */
+/* line 32, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain .formulaireLeft form .form-group label {
   float: left;
   margin-bottom: 1%;
+  font-size: 20px;
+  color: #337ab7;
 }
-/* line 27, ../../sass/sass/formulaireSelection.scss */
+/* line 37, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain .formulaireLeft form .form-group label textarea {
   margin-bottom: 2%;
 }
-/* line 31, ../../sass/sass/formulaireSelection.scss */
+/* line 41, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain .formulaireLeft form .form-group label input {
+  margin-top: 1%;
   float: right;
 }
-/* line 37, ../../sass/sass/formulaireSelection.scss */
+/* line 48, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain .formulaireLeft button {
-  display: block;
+  font-family: 'montserratregular', sans-serif;
+  width: 100%;
+  height: 60px;
+  font-size: 1.5em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2%;
-  width: 40%;
-  height: 100%;
-  box-shadow: 2px 2px 2px black;
-  border: 2px solid black;
-  font-family: 'Montserrat';
-  font-size: 1.2em;
+  margin-top: 25px;
+  padding-top: 8px;
+  color: white;
+  background-color: #db4d69;
 }
-/* line 53, ../../sass/sass/formulaireSelection.scss */
+/* line 59, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft button:hover {
+  background-color: #00338d;
+  color: white;
+}
+/* line 67, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain .formulaireRight {
   background: linear-gradient(to bottom, #aadbdb 0%, #aadbdb 50%, #ffffff 100%);
   height: 100%;
   width: 25%;
   text-align: center;
   padding-top: 5%;
+  margin-top: -0.5%;
+  font-family: 'montserratregular', sans-serif;
 }
-/* line 59, ../../sass/sass/formulaireSelection.scss */
+/* line 76, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain .formulaireRight h2 {
   padding-bottom: 10%;
+  color: white;
 }
-/* line 62, ../../sass/sass/formulaireSelection.scss */
+/* line 80, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain .formulaireRight p {
   font-size: 1.2em;
 }
-/* line 65, ../../sass/sass/formulaireSelection.scss */
+/* line 83, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain .formulaireRight a {
   font-size: 1.2em;
+}
+/* line 86, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireRight img {
+  margin-top: 15%;
 }

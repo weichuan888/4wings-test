@@ -81,51 +81,47 @@
   height: 100%;
   width: 25%;
   background: linear-gradient(to bottom, #aadbdb 0%, #aadbdb 50%, #ffffff 100%);
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 /* line 78, ../../sass/sass/contact.scss */
 .formulaireContact .formulaireContactMain .formulaireRight h2 {
   font-size: 2.5em;
   font-family: 'montserratregular', sans-serif;
-  text-align: left;
   margin-top: 15%;
   color: white;
 }
-/* line 85, ../../sass/sass/contact.scss */
+/* line 84, ../../sass/sass/contact.scss */
 .formulaireContact .formulaireContactMain .formulaireRight p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-family: 'montserratregular', sans-serif;
-  text-align: left;
   color: #564026;
   margin-top: 20%;
 }
-/* line 92, ../../sass/sass/contact.scss */
+/* line 90, ../../sass/sass/contact.scss */
 .formulaireContact .formulaireContactMain .formulaireRight a {
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-family: 'montserratregular', sans-serif;
-  text-align: left;
   margin-bottom: 1%;
 }
-/* line 98, ../../sass/sass/contact.scss */
+/* line 96, ../../sass/sass/contact.scss */
 .formulaireContact .formulaireContactMain .formulaireRight img {
   margin-top: 10%;
 }
 
 @media screen and (max-width: 320px) {
-  /* line 111, ../../sass/sass/contact.scss */
+  /* line 109, ../../sass/sass/contact.scss */
   .formulair {
     display: block;
   }
 
-  /* line 114, ../../sass/sass/contact.scss */
+  /* line 112, ../../sass/sass/contact.scss */
   .formu {
     width: 100%;
     display: block;
   }
 }
 @media screen and (max-width: 790px) {
-  /* line 120, ../../sass/sass/contact.scss */
+  /* line 118, ../../sass/sass/contact.scss */
   .formu {
     width: 100%;
     float: left;
