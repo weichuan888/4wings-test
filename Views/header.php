@@ -29,6 +29,14 @@
                       </ul>
                 </li>
                 <li class="dropdown list-inline-item menu"><a href="?page=contact">Contact</a></li>
+                <li class="dropdown list-inline-item menu ">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FR <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">EN</a></li>
+                        <li><a href="#">NL</a></li>
+                      </ul>
+                </li>
+
             </ul>
           </div>
         </div>

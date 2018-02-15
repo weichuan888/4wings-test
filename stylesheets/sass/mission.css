@@ -5,33 +5,33 @@
 }
 
 /* line 7, ../../sass/sass/mission.scss */
-.mission .header {
-  background-color: #00338d;
-  color: white;
+.mission .headerMission {
+  background-color: white;
   width: 100%;
   height: 125px;
 }
-/* line 12, ../../sass/sass/mission.scss */
-.mission .header h1 {
+/* line 11, ../../sass/sass/mission.scss */
+.mission .headerMission h1 {
   text-align: justify;
   padding-top: 1%;
   padding-left: 2%;
   font-size: 4.5em;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
+  color: #00338d;
 }
 /* line 21, ../../sass/sass/mission.scss */
 .mission .MissionFirst {
-  color: #00338d;
+  background-color: #f6f3ed;
   width: 100%;
   height: 100%;
   text-align: center;
-  border: 2px solid black;
 }
-/* line 27, ../../sass/sass/mission.scss */
+/* line 26, ../../sass/sass/mission.scss */
 .mission .MissionFirst h1 {
   font-size: 2.5em;
   font-family: 'Montserrat', sans-serif;
+  color: #db4d69;
 }
 /* line 31, ../../sass/sass/mission.scss */
 .mission .MissionFirst p {

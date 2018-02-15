@@ -8,12 +8,13 @@
       $extentionAutoriser = array ('jpg', 'jpeg', 'gif', 'png');
       if (in_array($extensionUpload, $extentionAutoriser))
       {
-
-        move_upload_file($_FILES['fileToUpload']['tmp_name'] . basename($_FILES['fileToUpload']['name']));
+        // move_upload_file($_FILES['fileToUpload']['tmp_name'] 'upload/' . basename($_FILES['fileToUpload']['name']));
         echo "L'envoi a bien été effectué!";
-
       }
     }
+  }
+  else {
+    echo "erreur";
   }
 
  ?>

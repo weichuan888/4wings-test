@@ -4,9 +4,8 @@
 }
 .mission{
 
-  .header {
-    background-color: #00338d;
-    color: white;
+  .headerMission {
+    background-color: white;
     width: 100%;
     height: 125px;
       h1 {
@@ -16,17 +15,18 @@
       font-size: 4.5em;
       text-transform: uppercase;
       font-family: 'Montserrat', sans-serif;
+      color: #00338d;
       }
   }
   .MissionFirst {
-    color: #00338d;
+    background-color:#f6f3ed;
     width: 100%;
     height: 100%;
     text-align: center;
-    border: 2px solid black;
       h1 {
         font-size: 2.5em;
         font-family: 'Montserrat', sans-serif;
+        color: #db4d69;
       }
       p {
         font-family: 'Montserrat', sans-serif;

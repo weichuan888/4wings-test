@@ -1,15 +1,11 @@
 <div class="container mission">
-  <div class="row header">
+  <div class="row headerMission">
     <h1>Missions</h1>
   </div>
   <div class="row MissionFirst">
     <h1>Lutter contre la précarité en belgique</h1>
-    <p>Cette expérience est passionnante. La 4WINGS Foundation est très
-      jeune. Avant tout, nous voulons essayer, agir, participer. Nous apprenons en faisant.
-      Nous sommes convaincus que l’esprit d’entreprise a un rôle à jouer dans la
-      construction d’une société plus solidaire.
-      Olivier Debuyst :
-      <a>www.4wings.org</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
     </p>
   </div>
   <div class="row MissionSecond">
@@ -27,14 +23,17 @@
       </ul>
     </div>
     <div class="col-md-6 MissionSecondLeftCitation">
-      <p>Il est important de créer des outils qui permettent de lever les obstables financiers, administratifs ou juridiques auxquels les acteurs du secteur font face.</p>
-        <img src="../img/femme2.png" alt="femme">
-        <h5>Romain Debruyst <br/>Membre de 4WINGS</h5>
+      <p>Cette expérience est passionnante. La 4WINGS Foundation est très
+        jeune. Avant tout, nous voulons essayer, agir, participer. Nous apprenons en faisant.
+        Nous sommes convaincus que l’esprit d’entreprise a un rôle à jouer dans la
+        construction d’une société plus solidaire.</p>
+        <img src="./img/femme2.png" alt="femme">
+        <h5>Martine Lhoist<br/>Présidente du Conseil de Famille</h5>
       </div>
     </div>
     <div class="row MissionThird">
       <div class="col-md-6 MissionThirdImage">
-        <img src="" alt="" width="300px" height="300px">
+        <img src="./elements/images/img1.png" alt="" width="200px" height="400px">
       </div>
       <div class="col-md-6 MissionThirdLegende">
         <p></p>
