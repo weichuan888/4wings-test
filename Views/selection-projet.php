@@ -24,7 +24,7 @@
     </div>
     <div class="candidature">
       <h3>Candidatures Spontanées.</h3>
-      <p>Si votre projet répond aux critères ci-dessus, envoyez-nous une description succincte en utilisant ce <a href="formulaire.php">formulaire</a>.
+      <p>Si votre projet répond aux critères ci-dessus, envoyez-nous une description succincte en utilisant ce <a href="?page=formulaire">formulaire</a>.
       </p>
     </div>
   </div>
