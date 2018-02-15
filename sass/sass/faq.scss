@@ -1,11 +1,28 @@
+.introHome{
+  font-family: 'montserratregular', sans-serif;
+  margin: 20px;
+
+  h1 {
+    color:#00338d;
+    .marron{
+      color: #564026;
+    }
+  }
+  p {
+    color: #00338d;
+    font-size: 1.5em;
+  }
+}
+
 .panels-faq {
   font-size: 18px;
   margin-right: 20px;
   margin-left: 20px;
+  margin-bottom: 30px;
   h3 {
     color: #00338d;
     margin: 0px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     &:hover {
