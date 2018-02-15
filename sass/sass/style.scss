@@ -162,14 +162,24 @@ body {
 	.row {
 		margin: 0px;
 		padding: 0px;
-    h1 {
-    	font-family: $OpenSans;
-  	  color: $bleu3;
-  	  font-size: 3em;
-      .marron {
-        color: $marron;
-      }
-    }
+		.introAccueil{
+			h1 {
+				font-family: $OpenSans;
+				color: $bleu3;
+				font-size: 3em;
+				.marron {
+					color: $marron;
+				}
+			}
+			p{
+				font-size: 1.5em;
+				color: $bleu3;
+				font-family: $OpenSans;
+
+			}
+
+		}
+
     // .intro {
 		// 	font-family: 'montserratregular';
 		// 	color: $marron;

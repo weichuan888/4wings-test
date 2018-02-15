@@ -1,18 +1,18 @@
 /* line 1, ../../sass/sass/faq.scss */
-.introHome {
+.introFaq {
   font-family: 'montserratregular', sans-serif;
 }
 /* line 4, ../../sass/sass/faq.scss */
-.introHome h1 {
+.introFaq h1 {
   color: #00338d;
   font-size: 3em;
 }
 /* line 7, ../../sass/sass/faq.scss */
-.introHome h1 .marron {
+.introFaq h1 .marron {
   color: #564026;
 }
 /* line 11, ../../sass/sass/faq.scss */
-.introHome p {
+.introFaq p {
   color: #00338d;
   font-size: 2.5em;
 }

@@ -2,7 +2,7 @@
   <br>
   <div class="container">
     <div class="row">
-      <div class="introHome col-md-12">
+      <div class="introFaq col-md-12">
         <h1>F.A<span class="marron">.Q.</span></h1>
         <p>Les questions les plus fréquement posées.</p>
       </div>
