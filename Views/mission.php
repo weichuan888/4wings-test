@@ -33,7 +33,6 @@
     </div>
     <div class="row MissionThird">
       <div class="col-md-6 MissionThirdImage">
-        <img src="./elements/images/img1.png" alt="" width="200px" height="400px">
       </div>
       <div class="col-md-6 MissionThirdLegende">
         <p></p>

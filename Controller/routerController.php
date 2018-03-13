@@ -79,6 +79,10 @@
       include(Controller . 'formulaireEnvoiController.php');
       $controller = new FormulaireEnvoi();
       break;
+    case 'formulaireEquipe';
+      include(Controller . 'formulaireEquipeController.php');
+      $controller = new FormulaireEquipe();
+      break;
 
     default:
       include(Controller . 'accueilController.php');
