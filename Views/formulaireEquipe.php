@@ -39,7 +39,8 @@
 // Connexion à la base de données
 try
 {
-  $bdd= new PDO ('mysql:host=localhost; dbname=4wings', 'root', 'user');
+  $bdd= new PDO ('mysql:host=localhost; dbname=test', 'root', 'root');
+  echo "connexion reussi";
 
 }
 catch(Exception $e)
@@ -63,20 +64,20 @@ catch(Exception $e)
         $file_name = $_FILES['fichier']['name'];
         $file_extension = strrchr($file_name, ".");
 
-         $file_tmp_name = $_FILES['fichier']['tmp_name'];
-         $file_dest = 'files/' .$file_name;
+        $file_tmp_name = $_FILES['fichier']['tmp_name'];
+         $file_dest = 'upload/' .$file_name;
          //'files/' .$file_name;
-         $extension_autorisees = array('.pdf', '.PDF');
-
+         $extension_autorisees = array('.pdf', '.PDF', '.png');
+         var_dump(in_array($file_extension, $extension_autorisees));
+         
          if(in_array($file_extension, $extension_autorisees)){
            if(move_uploaded_file($file_tmp_name, $file_dest)){
                echo 'Fichier envoyé avec succès';
             } else {
-                echo "Une erreur est survenue lors de l'envoie du fichier";
-           }
+               echo "Une erreur est survenue lors de l'envoie du fichier";
+            }
          } else {
              echo "Seul les fichiers PDF sont autorisées";
-
-      }
+         }
     }
 ?>
